@@ -1,0 +1,260 @@
+@media only screen and (max-width: 576px) { 
+  /* navber  */
+  .container {
+    padding: 0px 30px;
+  }
+  .nav-section-container{
+    margin-top: 20px;
+  }
+  .nav-section-container,.nav-menu,.nav-menu ul,.banner-section-container,.about-section-container,.experience-section,.portfolio-tabs-data,.input-forms,.footer-menu ul,.portfoilo-button-contanier    {
+    flex-direction: column;
+  }
+  .nav-menu ul,.nav-menu ul li{
+    margin: 5px 0px;
+  }
+
+  /* banner */
+  .banner-section-container{
+    margin-top: 50px;
+  }
+  .contant-desc h1 {
+    font-size: 30px;
+  }
+  .profile-image img {
+    width: 100%;
+  }
+  .rotate-content {
+    font-size: 15px;
+    padding: 20px;
+  }
+
+  .rotate-section-positions {
+    top: -177px;
+  }
+  /* about section */
+
+  .about-desc {
+    text-align: left;
+    margin-top: 20px;
+  }
+  .stars {
+    margin: 5px 0px;
+    padding: 0;
+  }
+
+  /* experience section */
+  .section-desc{
+    margin: 10px 0px;
+  }
+
+  /* award section */
+  .award {
+    padding: 17px 43px;
+    flex-direction: column;
+    margin: 35px 0px;
+    line-height: 44px;
+  }
+
+  /* contact section */
+  .input-name input{
+    width: 100%;
+  }
+  
+  .contact-section-container {
+    padding: 40px 50px;
+  }
+  
+  /* portfolio section */
+  .tabs-image {
+    width: 100%;
+    margin-bottom: 35px;
+    margin-top: 23px;
+  }
+
+  /* footer section */
+  .footer-menu ul li {
+    text-align: center;
+  }
+
+  .footer-reserves {
+    font-size: 14px;
+  }
+    
+}   
+
+@media screen and (max-width: 768px) { 
+  /* navber  */
+  .container {
+    padding: 0px 40px;
+  }
+  .logo h1 {
+    font-size: 50px;
+  }
+  .nav-menu ul li a {
+    font-size: 32px;
+  }
+  .nav-menu-btn button {
+    font-size: 26px;
+    margin-top: 22px;
+  }
+  .nav-section-container,.nav-menu,.nav-menu ul,.banner-section-container,.experience-section,.portfolio-tabs-data,.input-forms,.footer-menu ul,.portfoilo-button-contanier    {
+    flex-direction: column;
+  }
+  .nav-menu ul,.nav-menu ul li{
+    margin: 5px 0px;
+  }
+
+  /* banner */
+  .banner-section-container{
+    margin-top: 50px;
+  }
+  .contant-desc h1 {
+    font-size: 40px;
+    margin-top: 45px;
+  }
+  .contant-desc p {
+    font-size: 24px;
+  }
+  .skills {
+    font-size: 30px;
+    margin: 20px 0px;
+  }
+  .social-icons-container a {
+    font-size: 36px;
+    margin-top: 12px;
+  }
+  .rotate-content {
+    font-size: 23px;
+    padding: 47px;
+  }
+
+  .rotate-section-positions {
+    top: -200px;
+  }
+  /* about section */
+
+  .about-desc {
+    text-align: left;
+    margin-top: 20px;
+  }
+  .stars {
+    margin: 5px 0px;
+    padding: 0;
+  }
+
+  /* experience section */
+  .expriencess{
+    margin-left: -251px;
+  }
+  .section-desc{
+    margin: 10px 0px;
+  }
+  .experience-year {
+    margin-left: -194px;
+  }
+
+  /* award section */
+  .award {
+    padding: 17px 43px;
+    flex-direction: column;
+    margin: 35px 0px;
+    line-height: 44px;
+  }
+
+  /* contact section */
+  .input-name input{
+    width: 100%;
+  }
+  
+  .contact-section-container {
+    padding: 40px 50px;
+  }
+  
+  /* portfolio section */
+  .tabs-image {
+    width: 100%;
+    margin-bottom: 35px;
+    margin-top: 23px;
+  }
+
+  /* footer section */
+  .footer-menu ul li {
+    text-align: center;
+  }
+
+  .footer-reserves {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (max-width: 992px) { 
+
+  /* navber section */
+  .nav-menu ul li { font-size: 16px; }
+  .nav-menu-btn button {
+    padding: 14px 29px;
+    font-size: 20px;
+  }
+  .contant-desc h1 {
+    font-size: 21px;
+  }
+  .section-title { font-size: 35px;}
+  .section-desc {font-size: 16px;}
+
+  /* experience section */
+  .experience-title h1 { font-size: 20px;}
+
+  /* portfolio section */
+  .tabs-image{width: 100%;}
+  .porfolio-button {font-size: 18px;}
+  .tabs-desc{
+    padding: 0px 0px;
+  }
+
+  .tabs-desc h1 { font-size: 30px; padding: 0 26px;}
+  .tabs-desc p {  padding: 0 26px;}
+  .tabs-desc h2 {  padding: 0 26px;}
+
+  /* contact section */
+  .input-forms {
+    flex-direction: column;
+  }
+  .input-name input{ width: 100%;}
+ }
+
+
+@media screen and (max-width: 1024px) { 
+  /* navber section */
+  .nav-menu ul li { font-size: 16px; }
+  .nav-menu-btn button {
+    padding: 14px 29px;
+    font-size: 20px;
+  }
+  .contant-desc h1 {
+    font-size: 21px;
+  }
+  .contant-desc p { font-size: 14px;}
+  .section-title { font-size: 35px;}
+  .section-desc {font-size: 16px;}
+
+  /* experience section */
+  .experience-title h1 { font-size: 20px;}
+
+  /* portfolio section */
+  .tabs-image{width: 100%;}
+  .porfolio-button {font-size: 18px;}
+  .tabs-desc{
+    padding: 0px 0px;
+  }
+
+  .tabs-desc h1 { font-size: 30px; padding: 0 26px;}
+  .tabs-desc p {  padding: 0 26px;}
+  .tabs-desc h2 {  padding: 0 26px;}
+
+  /* contact section */
+  .input-forms {
+    flex-direction: column;
+  }
+  .input-name input{ width: 100%;}
+  }
